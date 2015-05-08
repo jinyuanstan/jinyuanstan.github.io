@@ -92,7 +92,8 @@
 <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题陈述"><span class="toc-number">1.</span> <span class="toc-text">问题陈述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Zookeeper"><span class="toc-number">2.</span> <span class="toc-text">Zookeeper</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Doozer"><span class="toc-number">3.</span> <span class="toc-text">Doozer</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Etcd"><span class="toc-number">4.</span> <span class="toc-text">Etcd</span></a></li></ol>
 </div>
 
-        <p>本文是Jason Wilder对于常见的服务发现项目 Zookeeper ， Doozer ， Etcd 所写的一篇博客，其原文地址如下： Open-Source Service Discovery 。</p>
+        <p>原文: <a href="http://blog.csdn.net/shlazww/article/details/38736511" target="_blank" rel="external">http://blog.csdn.net/shlazww/article/details/38736511</a></p>
+<p>本文是Jason Wilder对于常见的服务发现项目 Zookeeper ， Doozer ， Etcd 所写的一篇博客，其原文地址如下： Open-Source Service Discovery 。</p>
 <p>服务发现是大多数分布式系统以及面向服务架构（SOA）的一个核心组成部分。这个难题，简单来说，可以认为是：当一项服务存在于多个主机节点上时，client端如何决策获取相应正确的IP和port。</p>
 <p>在传统情况下，当出现服务存在于多个主机节点上时，都会使用静态配置的方法来实现服务信息的注册。但是当大型系统中，需要部署更多服务的时候，事情就显得复杂得多。在一个实时的系统中，由于自动或者人工的服务扩展，或者服务的新添加部署，还有主机的宕机或者被替换，服务的location信息可能会很频繁的变化。</p>
 <p>在这样的场景下，为了避免不必要的服务中断，动态的服务注册和发现就显得尤为重要。</p>
