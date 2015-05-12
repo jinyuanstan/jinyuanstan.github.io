@@ -65,6 +65,62 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-geo-cluster" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/05/11/geo-cluster/" class="article-date">
+  <time datetime="2015-05-12T03:35:47.000Z" itemprop="datePublished">2015-05-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/05/11/geo-cluster/">geo_cluster</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+<div id="toc" class="toc-article">
+<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#地物聚合"><span class="toc-number">1.</span> <span class="toc-text">地物聚合</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#爬虫学习"><span class="toc-number">1.1.</span> <span class="toc-text">爬虫学习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#奇点校验"><span class="toc-number">1.2.</span> <span class="toc-text">奇点校验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#凸界定义"><span class="toc-number">1.3.</span> <span class="toc-text">凸界定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#分层扫描"><span class="toc-number">1.4.</span> <span class="toc-text">分层扫描</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结果校验"><span class="toc-number">1.5.</span> <span class="toc-text">结果校验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#聚类算法"><span class="toc-number">1.6.</span> <span class="toc-text">聚类算法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#K-means"><span class="toc-number">1.6.1.</span> <span class="toc-text">K-means</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#BIRCH"><span class="toc-number">1.6.2.</span> <span class="toc-text">BIRCH</span></a></li></ol></li></ol></li></ol>
+</div>
+
+        <h1 id="地物聚合">地物聚合</h1><h2 id="爬虫学习">爬虫学习</h2><p>以光谱作为地物辨识维度，假定可辨识特性是空间中属于稀疏分布。<br>不同地物所处空间空隙大，不相交。地物仅有可识别，不可识别两态，不存在中间模糊区域。<br>在一种类化条件下，通过爬虫快速扫描光谱数据，实现数据分层。</p>
+<h2 id="奇点校验">奇点校验</h2><p>奇点必须通过通用或者专用的规则消除。</p>
+<h2 id="凸界定义">凸界定义</h2><h2 id="分层扫描">分层扫描</h2><h2 id="结果校验">结果校验</h2><h2 id="聚类算法"><a href="http://baike.baidu.com/link?url=oztWVDZhjJOZ3SbWYZjxVyPExAHM1IEcP-z43QHLSX3J1HcpBqOO-sNOB7-0WPxC" target="_blank" rel="external">聚类算法</a></h2><p>聚类分析又称群分析，它是研究（样品或指标）分类问题的一种统计分析方法，同时也是数据挖掘的一个重要算法。聚类（Cluster）分析是由若干模式（Pattern）组成的，通常，模式是一个度量（Measurement）的向量，或者是多维空间中的一个点。聚类分析以相似性为基础，在一个聚类中的模式之间比不在同一聚类中的模式之间具有更多的相似性。</p>
+<ul>
+<li>划分方法(partitioning methods)</li>
+<li>层次方法(hierarchical methods)</li>
+<li>基于密度的方法(density-based methods)</li>
+<li>基于网格的方法(grid-based methods)</li>
+<li>基于模型的方法(model-based methods)</li>
+</ul>
+<h3 id="K-means"><a href="http://baike.baidu.com/subview/3066176/3066176.htm" title="百度百科" target="_blank" rel="external">K-means</a></h3><p>K-MEANS算法是输入聚类个数k，以及包含 n个数据对象的数据库，输出满足方差最小标准的k个聚类。</p>
+<h3 id="BIRCH"><a href="http://http://baike.baidu.com/subview/3066176/3066176.htm" target="_blank" rel="external">BIRCH</a></h3><p>BIRCH(Balanced Iterative Reducing and Clustering using Hierarchies)是一个综合的层次聚类算法。它用到了聚类特征(Clustering Feature, CF)和聚类特征树(CF Tree)两个概念，用于概括聚类描述。聚类特征树概括了聚类的有用信息，并且占用空间较元数据集合小得多，可以存放在内存中，从而可以提高算法在大型数据集合上的聚类速度及可伸缩性</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.nasheed.cn/2015/05/11/geo-cluster/" data-id="ci9krzqnv0002odjx8mljwnmw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
+
+  
     <article id="post-service_regist_and_discover" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/05/08/service_regist_and_discover/" class="article-date">
@@ -125,7 +181,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.nasheed.cn/2015/05/08/service_regist_and_discover/" data-id="ci9fchwpi0000smjxaoxcqted" class="article-share-link">Share</a>
+      <a data-url="http://www.nasheed.cn/2015/05/08/service_regist_and_discover/" data-id="ci9krzql30000odjx6lon0x3c" class="article-share-link">Share</a>
       
       
     </footer>
@@ -178,7 +234,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.nasheed.cn/2015/05/05/hello-world/" data-id="ci9fchws50001smjxas6evj1s" class="article-share-link">Share</a>
+      <a data-url="http://www.nasheed.cn/2015/05/05/hello-world/" data-id="ci9krzqmq0001odjxr8p1x803" class="article-share-link">Share</a>
       
       
     </footer>
@@ -206,7 +262,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">五月 2015</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">五月 2015</a><span class="archive-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -216,6 +272,10 @@
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2015/05/11/geo-cluster/">geo_cluster</a>
+          </li>
         
           <li>
             <a href="/2015/05/08/service_regist_and_discover/">开源的服务发现项目Zookeeper，Doozer，Etcd</a>
